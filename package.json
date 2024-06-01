@@ -1,17 +1,20 @@
 {
   "name": "my-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend connection to RDS AWS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "roxnguyen1612",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": "18.17.0"
   }
 }
